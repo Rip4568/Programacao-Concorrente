@@ -1,4 +1,4 @@
-package model;
+package model;//Classe não utilizada
 
 public class Fruta {
     String nomeFruta;
