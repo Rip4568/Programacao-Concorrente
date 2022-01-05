@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="455.0" prefWidth="632.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControleGerenciadorDeAlunos">
+   <children>
+      <TableView fx:id="tabelaPrincipal" layoutX="11.0" layoutY="8.0" prefHeight="388.0" prefWidth="469.0">
+        <columns>
+          <TableColumn fx:id="colunaMatricula" prefWidth="133.0" text="Matricula" />
+          <TableColumn fx:id="colunaNota1" text="Nota 1" />
+            <TableColumn fx:id="colunaNota2" prefWidth="73.0" text="Nota 2" />
+            <TableColumn fx:id="colunaNota3" prefWidth="79.0" text="Nota 3" />
+            <TableColumn fx:id="colunaMedia" prefWidth="102.0" text="Media" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnRemover" layoutX="14.0" layoutY="406.0" mnemonicParsing="false" onAction="#remover" prefHeight="35.0" prefWidth="87.0" text="Remover" />
+      <TextField fx:id="txtMatricula" layoutX="480.0" layoutY="58.0" />
+      <TextField fx:id="txtNota1" layoutX="511.0" layoutY="113.0" prefHeight="18.0" prefWidth="87.0" />
+      <TextField fx:id="txtNota2" layoutX="512.0" layoutY="157.0" prefHeight="18.0" prefWidth="87.0" />
+      <TextField fx:id="txtNota3" layoutX="511.0" layoutY="215.0" prefHeight="18.0" prefWidth="87.0" />
+      <Button fx:id="btnAdicionar" layoutX="516.0" layoutY="260.0" mnemonicParsing="false" onAction="#adicionar" prefHeight="49.0" prefWidth="77.0" text="Adicionar" />
+      <Label layoutX="496.0" layoutY="14.0" prefHeight="35.0" prefWidth="118.0" text="Matricula do Aluno:" />
+      <Label layoutX="524.0" layoutY="90.0" prefHeight="3.0" prefWidth="62.0" text="Nota 1:" />
+      <Label layoutX="524.0" layoutY="138.0" prefHeight="17.0" prefWidth="45.0" text="Nota 3:" />
+      <Label layoutX="524.0" layoutY="194.0" prefHeight="17.0" prefWidth="45.0" text="Nota 4:" />
+   </children>
+</AnchorPane>

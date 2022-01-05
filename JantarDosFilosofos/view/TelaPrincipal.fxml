@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="489.0" prefWidth="759.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControladorTelaPrincipal">
+   <children>
+      <ImageView fitHeight="489.0" fitWidth="759.0">
+         <image>
+            <Image url="@../assets/images/fundo2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="filosofo0" fitHeight="113.0" fitWidth="127.0" layoutX="319.0" layoutY="14.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/images/filosofoFR.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="filosofo1" fitHeight="135.0" fitWidth="127.0" layoutX="52.0" layoutY="98.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/images/filosofoFR.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="filosofo2" fitHeight="126.0" fitWidth="127.0" layoutX="82.0" layoutY="303.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/images/filosofoFR.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="filosofo3" fitHeight="135.0" fitWidth="127.0" layoutX="521.0" layoutY="294.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/images/filosofoVFR.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="filosofo4" fitHeight="126.0" fitWidth="127.0" layoutX="569.0" layoutY="98.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/images/filosofoVFR.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="comida0" fitHeight="53.0" fitWidth="61.0" layoutX="258.0" layoutY="148.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/images/hamburguerFR.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="comida1" fitHeight="53.0" fitWidth="61.0" layoutX="217.0" layoutY="224.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/images/hamburguerFR.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="comida2" fitHeight="53.0" fitWidth="61.0" layoutX="352.0" layoutY="294.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/images/hamburguerFR.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="comida3" fitHeight="53.0" fitWidth="61.0" layoutX="475.0" layoutY="233.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/images/hamburguerFR.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="comida4" fitHeight="53.0" fitWidth="61.0" layoutX="445.0" layoutY="148.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/images/hamburguerFR.png" />
+         </image>
+      </ImageView>
+      <Slider fx:id="sliderVelocidadePensar2" blockIncrement="1.0" layoutX="59.0" layoutY="422.0" majorTickUnit="1.0" max="9.0" min="1.0" minorTickCount="1" showTickLabels="true" showTickMarks="true" value="1.0" />
+      <Slider fx:id="sliderVelocidadeComer2" blockIncrement="1.0" layoutX="59.0" layoutY="446.0" majorTickUnit="1.0" max="9.0" min="1.0" minorTickCount="1" showTickLabels="true" showTickMarks="true" value="1.0" />
+      <Slider fx:id="sliderVelocidadePensar1" blockIncrement="1.0" layoutX="33.0" layoutY="226.0" majorTickUnit="1.0" max="9.0" min="1.0" minorTickCount="1" showTickLabels="true" showTickMarks="true" value="1.0" />
+      <Slider fx:id="sliderVelocidadeComer1" blockIncrement="1.0" layoutX="33.0" layoutY="253.0" majorTickUnit="1.0" max="9.0" min="1.0" minorTickCount="1" showTickLabels="true" showTickMarks="true" value="1.0" />
+      <Slider fx:id="sliderVelocidadePensar3" blockIncrement="1.0" layoutX="527.0" layoutY="422.0" majorTickUnit="1.0" max="9.0" min="1.0" minorTickCount="1" showTickLabels="true" showTickMarks="true" value="1.0" />
+      <Slider fx:id="sliderVelocidadeComer3" blockIncrement="1.0" layoutX="527.0" layoutY="446.0" majorTickUnit="1.0" max="9.0" min="1.0" minorTickCount="1" showTickLabels="true" showTickMarks="true" value="1.0" />
+      <Slider fx:id="sliderVelocidadePensar4" blockIncrement="1.0" layoutX="597.0" layoutY="238.0" majorTickUnit="1.0" max="9.0" min="1.0" minorTickCount="1" showTickLabels="true" showTickMarks="true" value="1.0" />
+      <Slider fx:id="sliderVelocidadeComer4" blockIncrement="1.0" layoutX="597.0" layoutY="270.0" majorTickUnit="1.0" max="9.0" min="1.0" minorTickCount="1" showTickLabels="true" showTickMarks="true" value="1.0" />
+      <Slider fx:id="sliderVelocidadePensar0" blockIncrement="1.0" layoutX="451.0" layoutY="21.0" majorTickUnit="1.0" max="9.0" min="1.0" minorTickCount="1" showTickLabels="true" showTickMarks="true" value="1.0" />
+      <Slider fx:id="sliderVelocidadeComer0" blockIncrement="1.0" layoutX="451.0" layoutY="47.0" majorTickUnit="1.0" max="9.0" min="1.0" minorTickCount="1" showTickLabels="true" showTickMarks="true" value="1.0" />
+   </children>
+</AnchorPane>

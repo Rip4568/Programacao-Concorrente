@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="369.0" prefWidth="941.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControladorTelaPrincipal">
+   <children>
+      <ImageView fitHeight="226.0" fitWidth="947.0" layoutX="-3.0" layoutY="72.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/images/circuitoJohn-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Slider fx:id="sliderTrem1" layoutX="36.0" layoutY="14.0" max="20.0" minorTickCount="5" prefHeight="43.0" prefWidth="200.0" showTickLabels="true" showTickMarks="true" />
+      <Label fx:id="lblTextoTesteTrem1" layoutX="123.0" layoutY="298.0" prefHeight="60.0" prefWidth="163.0" text="0">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imagemTrem1" fitHeight="43.0" fitWidth="67.0" layoutY="77.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/images/modeloTremFinalizado-removebg-preview%20(2).png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagemTrem2" fitHeight="43.0" fitWidth="67.0" layoutX="879.0" layoutY="227.0" pickOnBounds="true" preserveRatio="true" smooth="false">
+         <image>
+            <Image url="@../assets/images/modeloTrem2Finalizado-removebg-preview%20(1).png" />
+         </image>
+      </ImageView>
+      <Slider fx:id="sliderTrem2" blockIncrement="5.0" layoutX="715.0" layoutY="14.0" max="20.0" minorTickCount="5" prefHeight="43.0" prefWidth="200.0" showTickLabels="true" showTickMarks="true" />
+      <Label fx:id="lblTextoTesteTrem2" layoutX="736.0" layoutY="298.0" prefHeight="60.0" prefWidth="163.0" text="0">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imagemSinal2" fitHeight="94.0" fitWidth="124.0" layoutX="612.0" layoutY="56.0" pickOnBounds="true" />
+      <ImageView fx:id="imagemSinal1" fitHeight="94.0" fitWidth="124.0" layoutX="203.0" layoutY="66.0" pickOnBounds="true" />
+   </children>
+</AnchorPane>

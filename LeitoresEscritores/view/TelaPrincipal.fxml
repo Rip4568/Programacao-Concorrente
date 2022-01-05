@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="1140.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControladorTelaPrincipal">
+   <children>
+      <ImageView fitHeight="540.0" fitWidth="1140.0">
+         <image>
+            <Image url="@../assets/images/Fundo_Tela.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImagemLeitor0" fitHeight="140.0" fitWidth="110.0" layoutX="23.0" layoutY="239.0" pickOnBounds="true" />
+      <ImageView fx:id="ImagemLeitor01" fitHeight="140.0" fitWidth="110.0" layoutX="33.0" layoutY="249.0" pickOnBounds="true" />
+      <ImageView fx:id="ImagemLeitor02" fitHeight="140.0" fitWidth="110.0" layoutX="43.0" layoutY="259.0" pickOnBounds="true" />
+      <ImageView fx:id="ImagemLeitor03" fitHeight="140.0" fitWidth="110.0" layoutX="53.0" layoutY="269.0" pickOnBounds="true" />
+      <ImageView fx:id="ImagemLeitor04" fitHeight="140.0" fitWidth="110.0" layoutX="63.0" layoutY="279.0" pickOnBounds="true" />
+      <ImageView fx:id="ImagemLeitor05" fitHeight="140.0" fitWidth="110.0" layoutX="73.0" layoutY="289.0" pickOnBounds="true" />
+      <ImageView fx:id="ImagemLeitor06" fitHeight="140.0" fitWidth="110.0" layoutX="108.0" layoutY="239.0" pickOnBounds="true" />
+      <ImageView fx:id="ImagemLeitor07" fitHeight="140.0" fitWidth="110.0" layoutX="33.0" layoutY="249.0" pickOnBounds="true" />
+      <ImageView fx:id="ImagemLeitor08" fitHeight="140.0" fitWidth="110.0" layoutX="43.0" layoutY="259.0" pickOnBounds="true" />
+      <ImageView fx:id="ImagemLeitor09" fitHeight="140.0" fitWidth="110.0" layoutX="53.0" layoutY="269.0" pickOnBounds="true" />
+      <ImageView fx:id="ImagemEscritor0" fitHeight="140.0" fitWidth="110.0" layoutX="947.0" layoutY="233.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="ImagemEscritor01" fitHeight="140.0" fitWidth="110.0" layoutX="957.0" layoutY="243.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="ImagemEscritor02" fitHeight="140.0" fitWidth="110.0" layoutX="967.0" layoutY="253.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="ImagemEscritor03" fitHeight="140.0" fitWidth="110.0" layoutX="977.0" layoutY="263.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="ImagemEscritor04" fitHeight="140.0" fitWidth="110.0" layoutX="987.0" layoutY="273.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="lblNomeFilme" layoutX="374.0" layoutY="450.0" prefHeight="57.0" prefWidth="341.0" text="Nome do Filme">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Slider fx:id="sliderVelocidadeLeitor" blockIncrement="1.0" layoutX="18.0" layoutY="14.0" majorTickUnit="1.0" max="10.0" min="1.0" minorTickCount="1" showTickLabels="true" showTickMarks="true" value="1.0" />
+      <Slider fx:id="sliderVelocidadeEscritor" blockIncrement="1.0" layoutX="972.0" layoutY="14.0" majorTickUnit="1.0" max="10.0" min="1.0" minorTickCount="1" showTickLabels="true" showTickMarks="true" value="1.0" />
+   </children>
+</AnchorPane>

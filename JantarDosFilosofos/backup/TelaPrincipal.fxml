@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="533.0" prefWidth="742.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControladorTelaPrincipal">
+   <children>
+      <AnchorPane>
+         <children>
+            <ImageView fitHeight="533.0" fitWidth="742.0">
+               <image>
+                  <Image url="@../assets/images/fundo.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="pensandoDoge1" fitHeight="68.0" fitWidth="72.0" layoutX="169.0" layoutY="357.0" pickOnBounds="true" />
+            <ImageView fx:id="pensandoDoge4" fitHeight="68.0" fitWidth="72.0" layoutX="190.0" layoutY="164.0" pickOnBounds="true" />
+            <ImageView fx:id="pensandoDoge3" fitHeight="68.0" fitWidth="72.0" layoutX="549.0" layoutY="192.0" pickOnBounds="true" />
+            <ImageView fx:id="pensandoDoge2" fitHeight="68.0" fitWidth="72.0" layoutX="549.0" layoutY="391.0" pickOnBounds="true" />
+            <Slider fx:id="sliderPensarDoge1" layoutX="29.0" layoutY="357.0" min="1.0" showTickLabels="true" showTickMarks="true" />
+            <Slider fx:id="sliderComerDoge1" layoutX="29.0" layoutY="395.0" min="1.0" showTickLabels="true" showTickMarks="true" />
+            <Slider fx:id="sliderPensarDoge3" layoutX="585.0" layoutY="118.0" min="1.0" showTickLabels="true" showTickMarks="true" />
+            <Slider fx:id="sliderComerDoge3" layoutX="585.0" layoutY="164.0" min="1.0" showTickLabels="true" showTickMarks="true" />
+            <Slider fx:id="sliderPensarDoge2" layoutX="594.0" layoutY="440.0" min="1.0" showTickLabels="true" showTickMarks="true" />
+            <Slider fx:id="sliderComerDoge2" layoutX="594.0" layoutY="485.0" min="1.0" showTickLabels="true" showTickMarks="true" />
+            <Slider fx:id="sliderPensarDoge4" layoutX="226.0" layoutY="99.0" min="1.0" showTickLabels="true" showTickMarks="true" />
+            <Slider fx:id="sliderComerDoge4" layoutX="226.0" layoutY="137.0" min="1.0" showTickLabels="true" showTickMarks="true" />
+         </children>
+      </AnchorPane>
+      <ImageView fx:id="imagemDoge4" fitHeight="122.0" fitWidth="112.0" layoutX="240.0" layoutY="215.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/images/filosofoFR.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagemDoge3" fitHeight="115.0" fitWidth="112.0" layoutX="442.0" layoutY="257.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/images/filosofoVFR.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="225.0" layoutY="267.0">
+         <children>
+            <ImageView fitHeight="187.0" fitWidth="319.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../assets/images/mesaFR.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imagemComida1" fitHeight="34.0" fitWidth="34.0" layoutX="35.0" layoutY="46.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../assets/images/comidaFR.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imagemComida2" fitHeight="34.0" fitWidth="34.0" layoutX="143.0" layoutY="122.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../assets/images/comidaFR.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imagemComida3" fitHeight="34.0" fitWidth="34.0" layoutX="256.0" layoutY="94.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../assets/images/comidaFR.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imagemComida4" fitHeight="34.0" fitWidth="34.0" layoutX="132.0" layoutY="12.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../assets/images/comidaFR.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <ImageView fx:id="imagemDoge1" fitHeight="157.0" fitWidth="120.0" layoutX="249.0" layoutY="337.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/images/filosofoFR.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagemDoge2" fitHeight="136.0" fitWidth="128.0" layoutX="395.0" layoutY="372.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/images/filosofoVFR.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

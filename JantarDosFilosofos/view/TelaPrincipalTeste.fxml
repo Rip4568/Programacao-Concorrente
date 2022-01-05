@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="489.0" prefWidth="755.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControladorTelaPrincipal">
+   <children>
+      <ImageView fx:id="filosofo1" fitHeight="100.0" fitWidth="116.0" layoutX="131.0" layoutY="159.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/images/pensando.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="filosofo2" fitHeight="100.0" fitWidth="116.0" layoutX="151.0" layoutY="333.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/images/pensando.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="filosofo3" fitHeight="100.0" fitWidth="116.0" layoutX="515.0" layoutY="333.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/images/pensando.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="filosofo4" fitHeight="100.0" fitWidth="116.0" layoutX="537.0" layoutY="170.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/images/pensando.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="filosofo0" fitHeight="100.0" fitWidth="116.0" layoutX="320.0" layoutY="14.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/images/pensando.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="267.0" layoutY="170.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/images/mesaPrincipal.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

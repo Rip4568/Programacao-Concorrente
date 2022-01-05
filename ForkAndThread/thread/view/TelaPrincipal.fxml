@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="591.0" prefWidth="688.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControladorTelaPrincipal">
+   <children>
+      <ImageView fitHeight="591.0" fitWidth="688.0" layoutY="1.0">
+         <image>
+            <Image url="@../assets/images/WallPaper.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="lblPai" layoutX="315.0" layoutY="14.0" prefHeight="26.0" prefWidth="148.0" text="Pai" textFill="#fcf8f8">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblFilho1" layoutX="43.0" layoutY="138.0" prefHeight="26.0" prefWidth="148.0" text="Filho 1" textFill="#fcf8f8">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblFilho2" layoutX="288.0" layoutY="138.0" prefHeight="26.0" prefWidth="148.0" text="Filho 2" textFill="#fcf8f8">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblFilho3" layoutX="526.0" layoutY="138.0" prefHeight="26.0" prefWidth="148.0" text="Filho 3" textFill="#fcf8f8">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblNeto1" layoutX="37.0" layoutY="296.0" prefHeight="26.0" prefWidth="148.0" text="Neto 1" textFill="#fcf8f8">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblNeto2" layoutX="270.0" layoutY="296.0" prefHeight="26.0" prefWidth="148.0" text="Neto 2" textFill="#fcf8f8">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblBisneto" layoutX="37.0" layoutY="436.0" prefHeight="26.0" prefWidth="148.0" text="Bisneto 1" textFill="#fcf8f8">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imagemPai" fitHeight="88.0" fitWidth="184.0" layoutX="244.0" layoutY="40.0" pickOnBounds="true" />
+      <ImageView fx:id="imagemFilho1" fitHeight="88.0" fitWidth="142.0" layoutX="19.0" layoutY="178.0" pickOnBounds="true" />
+      <ImageView fx:id="imagemFilho2" fitHeight="88.0" fitWidth="142.0" layoutX="244.0" layoutY="178.0" pickOnBounds="true" />
+      <ImageView fx:id="imagemFilho3" fitHeight="88.0" fitWidth="142.0" layoutX="498.0" layoutY="178.0" pickOnBounds="true" />
+      <ImageView fx:id="imagemNeto1" fitHeight="88.0" fitWidth="142.0" layoutX="19.0" layoutY="336.0" pickOnBounds="true" />
+      <ImageView fx:id="imagemNeto2" fitHeight="88.0" fitWidth="142.0" layoutX="235.0" layoutY="336.0" pickOnBounds="true" />
+      <ImageView fx:id="imagemBisneto1" fitHeight="88.0" fitWidth="142.0" layoutX="26.0" layoutY="489.0" pickOnBounds="true" />
+   </children>
+</AnchorPane>
